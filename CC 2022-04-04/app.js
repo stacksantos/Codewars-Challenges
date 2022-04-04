@@ -37,3 +37,7 @@ The basic function would be written as
 When arr = [1,2,3] it will return [2,4,6]
 
 */
+//Answer to Codewars kata "Lost Without a Map"
+function maps(x){
+    return x.map(x => x*2)
+  }
