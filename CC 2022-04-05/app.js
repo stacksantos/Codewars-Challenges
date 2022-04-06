@@ -27,3 +27,15 @@ function boolToWord(bool) {
 
 //If you call boolToWord() without a boolean inserted it will
 //return false and "No" by default.
+
+//Codewars solution:
+
+function boolToWord( bool ){
+    if (bool === true) {
+      boolToWord.toString(true)
+      return "Yes"
+    } else {
+      boolToWord.toString(false)
+      return "No"
+    }
+  }
