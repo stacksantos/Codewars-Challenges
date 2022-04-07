@@ -1,4 +1,4 @@
-//Codewars problem: Personalized message
+//Codewars kata: Personalized message
 
 /*
 
