@@ -10,3 +10,15 @@ name    equals owner 	'Hello boss'
 otherwise 	            'Hello guest'
 
 */
+
+//This is a fairly simple kata involving an if/else statement.
+//If the name is equal to 'owner' then it will return 'Hello boss'.
+//All other cases will return 'Hello guest'
+
+function greet (name, owner) {
+    if (name === owner) {
+      return 'Hello boss'
+      }
+      else
+      return 'Hello guest' 
+  }
