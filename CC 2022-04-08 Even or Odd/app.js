@@ -18,3 +18,12 @@ function even_or_odd(number) {
       return "Odd"
   }
   // we could use an else if method as well for all other edge cases but it's not necessary
+
+  //This is the solution passed in to codewars
+
+  function even_or_odd(number) {
+    if (number % 2 === 0)
+      return "Even"
+    else
+      return "Odd"
+  }
