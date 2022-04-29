@@ -21,5 +21,12 @@ Hint: Don't forget to check for bad values like null/undefined
 */
 
 function countSheeps(arrayOfSheep) {
-    
+  let numSheep = 0;
+  
+  for (let i = 0; i <= arrayOfSheep.length; i++) {
+    if (arrayOfSheep[i] === true) {
+      numSheep++
+    }
+  }
+  return numSheep
   }
