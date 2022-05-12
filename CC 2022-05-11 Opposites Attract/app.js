@@ -8,7 +8,13 @@ Write a function that will take the number of petals of each flower and return t
 
 */
 
-
-function lovefunc(flower1, flower2){
-    // moment of truth
-  }
+function lovefunc(flower1, flower2) {
+    //first check if the flowers are even and store them in another variable
+  let flowerEven = flower1 % 2 === 0;
+  let flowerAlsoEven = flower2 % 2 === 0;
+  //then if they equal each other (which they should not) return false
+  if (flowerEven === flowerAlsoEven) {
+    return false;
+    //otherwise return true
+  } else return true;
+}
