@@ -16,7 +16,7 @@ function find_average(array) {
     //then we need to find the average, so we divide the sum by the number of items in the array
     let result = (reduced / array.length);
     //we need to make sure the array isn't empty
-    if (array !== "") {
+    if (array.length > 0) {
       return result
       //otherwise we return 0
     } else return 0;
