@@ -1,4 +1,5 @@
 /*
+Codewars Kata: Grasshopper - Check for factor
 
 This function should test if the factor is a factor of base.
 
@@ -20,5 +21,13 @@ Note: base is a non-negative number, factor is a positive number.
 */
 
 function checkForFactor (base, factor) {
-    //add code here
+    //all you have to do to check for factor is see if the base
+    //has a remainder of 0 when dividing by the factor
+    if (base % factor === 0) {
+        //this could be done in one line, but to be sure
+        return true
+        //I wrote it out completely
+      } else {
+        return false
+      }
   }
