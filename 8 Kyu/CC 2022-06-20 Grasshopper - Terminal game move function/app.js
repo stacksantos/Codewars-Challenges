@@ -14,5 +14,6 @@ move(3, 6) should equal 15
 
 
 function move (position, roll) {
-    //insert code here
+    // simply take the position and add it to roll * 2
+    return position + (roll * 2)
   }
