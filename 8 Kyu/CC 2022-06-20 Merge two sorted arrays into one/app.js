@@ -19,5 +19,10 @@ Happy coding!
 */
 
 function mergeArrays(arr1, arr2) {
-  //insert code
+    //first make a new variable and store the concatenated arrays in it
+    const sortArr = arr1.concat(arr2);
+    //then sort them
+    sortArr.sort((a,b) => a - b);
+    //now create a new set from the sorted array.  The "set" will implicitly remove duplicates from the array
+    const newArr = [...new Set(sortArr)];
 }
